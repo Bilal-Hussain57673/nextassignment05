@@ -7,10 +7,13 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
+    extend: { fontFamily:{
+      rye:["var(--font-Rye)"],
+    },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        
       },
     },
   },
